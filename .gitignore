@@ -1,0 +1,23 @@
+# datasets
+*.csv
+
+# models
+*.onnx
+*.pt
+*.pth
+*.onnx.data
+*.png
+# checkpoints
+checkpoints/
+no_train_checkpoint/
+
+# embeddings
+embeddings/
+
+# results
+results/
+results_weighted/
+
+# python cache
+__pycache__/
+*.pyc
