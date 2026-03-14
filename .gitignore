@@ -10,6 +10,8 @@
 # checkpoints
 checkpoints/
 no_train_checkpoint/
+dqn_fraud_checkpoints/
+dqn_fraud_tb/
 
 # embeddings
 embeddings/
