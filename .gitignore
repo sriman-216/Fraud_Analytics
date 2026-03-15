@@ -12,6 +12,9 @@ checkpoints/
 no_train_checkpoint/
 dqn_fraud_checkpoints/
 dqn_fraud_tb/
+a2c_fraud_checkpoints/
+a2c_fraud_tb/
+.models
 
 # embeddings
 embeddings/
