@@ -1,5 +1,6 @@
 # datasets
 *.csv
+*.env
 
 # models
 *.onnx
@@ -27,3 +28,4 @@ results_weighted/
 # python cache
 __pycache__/
 *.pyc.env
+.env
