@@ -26,4 +26,4 @@ results_weighted/
 
 # python cache
 __pycache__/
-*.pyc
+*.pyc.env
