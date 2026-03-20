@@ -14,6 +14,7 @@ dqn_fraud_checkpoints/
 dqn_fraud_tb/
 a2c_fraud_checkpoints/
 a2c_fraud_tb/
+models_firstrun/
 .models
 
 # embeddings
