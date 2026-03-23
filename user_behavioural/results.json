@@ -1,0 +1,36 @@
+[
+    {
+        "existing_features": [
+            "user_avg_transaction_amount",
+            "user_std_transaction_amount",
+            "user_transaction_count",
+            "user_ratio_chip_vs_swipe",
+            "user_avg_hourly_velocity",
+            "user_error_rate",
+            "user_avg_tx_amount_high_error",
+            "user_pct_online_transactions",
+            "user_unique_merchant_city_count",
+            "user_unique_merchant_state_count",
+            "user_amount_span",
+            "user_avg_zip_entropy",
+            "user_max_tx_per_hour"
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.89      0.72      0.79       131\n           1       0.87      0.96      0.91       269\n\n    accuracy                           0.88       400\n   macro avg       0.88      0.84      0.85       400\nweighted avg       0.88      0.88      0.87       400\n",
+        "roc_auc": 0.904424075598059,
+        "top_features": {
+            "user_transaction_count": 0.23182269298865602,
+            "user_max_tx_per_hour": 0.21952177498794556,
+            "user_unique_merchant_state_count": 0.13307552559968192,
+            "user_unique_merchant_city_count": 0.12444643279526545,
+            "user_avg_zip_entropy": 0.09913105358063737,
+            "user_amount_span": 0.06816271506043464,
+            "user_std_transaction_amount": 0.04867842957142022,
+            "user_avg_transaction_amount": 0.037589683303003,
+            "user_avg_tx_amount_high_error": 0.037571692112955656,
+            "user_avg_hourly_velocity": 0.0,
+            "user_ratio_chip_vs_swipe": 0.0,
+            "user_pct_online_transactions": 0.0,
+            "user_error_rate": 0.0
+        }
+    }
+]
