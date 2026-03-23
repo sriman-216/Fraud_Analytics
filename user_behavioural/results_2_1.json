@@ -1,0 +1,34 @@
+{
+    "existing_features": [
+        "user_avg_transaction_amount",
+        "user_std_transaction_amount",
+        "user_transaction_count",
+        "user_velocity_7_day",
+        "user_chip_usage_ratio",
+        "user_error_rate",
+        "user_time_of_day_skew",
+        "user_avg_amount_vs_all_median",
+        "user_merchant_city_diversity",
+        "user_merchant_state_diversity",
+        "user_ratio_unusual_state",
+        "user_zip_code_entropy",
+        "user_ratio_online_vs_total"
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.89      0.73      0.80       131\n           1       0.88      0.96      0.91       269\n\n    accuracy                           0.88       400\n   macro avg       0.88      0.84      0.86       400\nweighted avg       0.88      0.88      0.88       400\n",
+    "roc_auc": 0.9071767076250745,
+    "top_features": {
+        "user_transaction_count": 0.2927421173740664,
+        "user_unique_merchant_city_count": 0.16537562825147561,
+        "user_unique_merchant_state_count": 0.15958220406415013,
+        "user_mcc_diversity": 0.1406908064563925,
+        "user_avg_time_since_first_transaction": 0.06749864521159203,
+        "user_std_transaction_amount": 0.049799462019240515,
+        "user_avg_amount_vs_std_ratio": 0.04496708659797927,
+        "user_avg_transaction_amount": 0.04128804331062896,
+        "user_median_zip_change_rate": 0.038056006714474656,
+        "user_chip_transaction_ratio": 0.0,
+        "user_online_ratio": 0.0,
+        "user_error_rate": 0.0,
+        "user_time_of_day_variance": 0.0
+    }
+}
