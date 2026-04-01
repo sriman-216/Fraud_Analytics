@@ -1,0 +1,435 @@
+[
+    {
+        "iteration": 0,
+        "roc_auc": 0.9108090467947445,
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.88      0.73      0.79       131\n           1       0.88      0.95      0.91       269\n\n    accuracy                           0.88       400\n   macro avg       0.88      0.84      0.85       400\nweighted avg       0.88      0.88      0.87       400\n",
+        "num_features": 9,
+        "top_80_features": [
+            {
+                "feature": "user_active_year_count",
+                "importance": 0.26398895252195304,
+                "cum_importance": 0.26398895252195304
+            },
+            {
+                "feature": "user_transaction_count",
+                "importance": 0.21058575263580917,
+                "cum_importance": 0.47457470515776223
+            },
+            {
+                "feature": "user_total_errors",
+                "importance": 0.16050064902762337,
+                "cum_importance": 0.6350753541853856
+            },
+            {
+                "feature": "user_state_spread_density",
+                "importance": 0.10157164877889854,
+                "cum_importance": 0.7366470029642842
+            }
+        ],
+        "importance_top20": [
+            {
+                "feature": "user_active_year_count",
+                "importance": 0.26398895252195304,
+                "cum_importance": 0.26398895252195304
+            },
+            {
+                "feature": "user_transaction_count",
+                "importance": 0.21058575263580917,
+                "cum_importance": 0.47457470515776223
+            },
+            {
+                "feature": "user_total_errors",
+                "importance": 0.16050064902762337,
+                "cum_importance": 0.6350753541853856
+            },
+            {
+                "feature": "user_state_spread_density",
+                "importance": 0.10157164877889854,
+                "cum_importance": 0.7366470029642842
+            },
+            {
+                "feature": "user_card_usage_velocity",
+                "importance": 0.09773973359417225,
+                "cum_importance": 0.8343867365584564
+            },
+            {
+                "feature": "user_swipe_method_propensity",
+                "importance": 0.07185027824758763,
+                "cum_importance": 0.906237014806044
+            },
+            {
+                "feature": "user_amount_outlier_ratio",
+                "importance": 0.050222144325025864,
+                "cum_importance": 0.9564591591310698
+            },
+            {
+                "feature": "user_online_method_propensity",
+                "importance": 0.043540840868930085,
+                "cum_importance": 0.9999999999999999
+            },
+            {
+                "feature": "user_night_txn_freq",
+                "importance": 0.0,
+                "cum_importance": 0.9999999999999999
+            }
+        ],
+        "added_features": [
+            "user_state_spread_density",
+            "user_night_txn_freq",
+            "user_swipe_method_propensity",
+            "user_amount_outlier_ratio",
+            "user_online_method_propensity"
+        ],
+        "zero_features": [
+            "user_night_txn_freq"
+        ]
+    },
+    {
+        "iteration": 1,
+        "roc_auc": 0.9119157751355031,
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.89      0.71      0.79       131\n           1       0.87      0.96      0.91       269\n\n    accuracy                           0.88       400\n   macro avg       0.88      0.83      0.85       400\nweighted avg       0.88      0.88      0.87       400\n",
+        "num_features": 9,
+        "top_80_features": [
+            {
+                "feature": "user_active_year_count",
+                "importance": 0.2624045676661593,
+                "cum_importance": 0.2624045676661593
+            },
+            {
+                "feature": "user_transaction_count",
+                "importance": 0.2072197515160203,
+                "cum_importance": 0.4696243191821796
+            },
+            {
+                "feature": "user_total_errors",
+                "importance": 0.1524856491374026,
+                "cum_importance": 0.6221099683195822
+            },
+            {
+                "feature": "user_mcc_diversity_ratio",
+                "importance": 0.09633954898711962,
+                "cum_importance": 0.7184495173067018
+            },
+            {
+                "feature": "user_card_utilization_intensity",
+                "importance": 0.0784906639139557,
+                "cum_importance": 0.7969401812206576
+            }
+        ],
+        "importance_top20": [
+            {
+                "feature": "user_active_year_count",
+                "importance": 0.2624045676661593,
+                "cum_importance": 0.2624045676661593
+            },
+            {
+                "feature": "user_transaction_count",
+                "importance": 0.2072197515160203,
+                "cum_importance": 0.4696243191821796
+            },
+            {
+                "feature": "user_total_errors",
+                "importance": 0.1524856491374026,
+                "cum_importance": 0.6221099683195822
+            },
+            {
+                "feature": "user_mcc_diversity_ratio",
+                "importance": 0.09633954898711962,
+                "cum_importance": 0.7184495173067018
+            },
+            {
+                "feature": "user_card_utilization_intensity",
+                "importance": 0.0784906639139557,
+                "cum_importance": 0.7969401812206576
+            },
+            {
+                "feature": "user_state_spread_density",
+                "importance": 0.07095324521827726,
+                "cum_importance": 0.8678934264389349
+            },
+            {
+                "feature": "user_amount_coefficient_of_variation",
+                "importance": 0.045561877552839,
+                "cum_importance": 0.9134553039917739
+            },
+            {
+                "feature": "user_peak_to_average_amount_ratio",
+                "importance": 0.04515902500825988,
+                "cum_importance": 0.9586143290000337
+            },
+            {
+                "feature": "user_chip_usage_inconsistency",
+                "importance": 0.041385670999966366,
+                "cum_importance": 1.0
+            }
+        ],
+        "added_features": [
+            "user_card_utilization_intensity",
+            "user_mcc_diversity_ratio",
+            "user_amount_coefficient_of_variation",
+            "user_peak_to_average_amount_ratio",
+            "user_chip_usage_inconsistency"
+        ],
+        "zero_features": []
+    },
+    {
+        "iteration": 2,
+        "roc_auc": 0.9064388887312352,
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.89      0.71      0.79       131\n           1       0.87      0.96      0.91       269\n\n    accuracy                           0.88       400\n   macro avg       0.88      0.83      0.85       400\nweighted avg       0.88      0.88      0.87       400\n",
+        "num_features": 10,
+        "top_80_features": [
+            {
+                "feature": "user_active_year_count",
+                "importance": 0.26348656569493234,
+                "cum_importance": 0.26348656569493234
+            },
+            {
+                "feature": "user_total_errors",
+                "importance": 0.18159622508585493,
+                "cum_importance": 0.4450827907807873
+            },
+            {
+                "feature": "user_transaction_count",
+                "importance": 0.16218288968941963,
+                "cum_importance": 0.6072656804702069
+            },
+            {
+                "feature": "user_mcc_diversity_ratio",
+                "importance": 0.11350759508801524,
+                "cum_importance": 0.7207732755582221
+            }
+        ],
+        "importance_top20": [
+            {
+                "feature": "user_active_year_count",
+                "importance": 0.26348656569493234,
+                "cum_importance": 0.26348656569493234
+            },
+            {
+                "feature": "user_total_errors",
+                "importance": 0.18159622508585493,
+                "cum_importance": 0.4450827907807873
+            },
+            {
+                "feature": "user_transaction_count",
+                "importance": 0.16218288968941963,
+                "cum_importance": 0.6072656804702069
+            },
+            {
+                "feature": "user_mcc_diversity_ratio",
+                "importance": 0.11350759508801524,
+                "cum_importance": 0.7207732755582221
+            },
+            {
+                "feature": "user_card_utilization_intensity",
+                "importance": 0.10346075075562532,
+                "cum_importance": 0.8242340263138475
+            },
+            {
+                "feature": "user_geographic_mcc_volatility",
+                "importance": 0.06994769284564557,
+                "cum_importance": 0.8941817191594931
+            },
+            {
+                "feature": "user_extreme_amt_spike_factor",
+                "importance": 0.05549918025984869,
+                "cum_importance": 0.9496808994193418
+            },
+            {
+                "feature": "user_intl_merchant_ratio",
+                "importance": 0.050319100580658443,
+                "cum_importance": 1.0000000000000002
+            },
+            {
+                "feature": "user_late_night_transaction_ratio",
+                "importance": 0.0,
+                "cum_importance": 1.0000000000000002
+            },
+            {
+                "feature": "user_error_weighted_amount_impact",
+                "importance": 0.0,
+                "cum_importance": 1.0000000000000002
+            }
+        ],
+        "added_features": [
+            "user_geographic_mcc_volatility",
+            "user_intl_merchant_ratio",
+            "user_error_weighted_amount_impact",
+            "user_late_night_transaction_ratio",
+            "user_extreme_amt_spike_factor"
+        ],
+        "zero_features": [
+            "user_late_night_transaction_ratio",
+            "user_error_weighted_amount_impact"
+        ]
+    },
+    {
+        "iteration": 3,
+        "roc_auc": 0.8907460484122705,
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.84      0.73      0.78       131\n           1       0.87      0.93      0.90       269\n\n    accuracy                           0.86       400\n   macro avg       0.86      0.83      0.84       400\nweighted avg       0.86      0.86      0.86       400\n",
+        "num_features": 9,
+        "top_80_features": [
+            {
+                "feature": "user_active_year_count",
+                "importance": 0.27316647539248545,
+                "cum_importance": 0.27316647539248545
+            },
+            {
+                "feature": "user_total_errors",
+                "importance": 0.20753250019728706,
+                "cum_importance": 0.4806989755897725
+            },
+            {
+                "feature": "user_transaction_count",
+                "importance": 0.16210047667684419,
+                "cum_importance": 0.6427994522666167
+            },
+            {
+                "feature": "user_mcc_diversity_ratio",
+                "importance": 0.09657621468393267,
+                "cum_importance": 0.7393756669505493
+            }
+        ],
+        "importance_top20": [
+            {
+                "feature": "user_active_year_count",
+                "importance": 0.27316647539248545,
+                "cum_importance": 0.27316647539248545
+            },
+            {
+                "feature": "user_total_errors",
+                "importance": 0.20753250019728706,
+                "cum_importance": 0.4806989755897725
+            },
+            {
+                "feature": "user_transaction_count",
+                "importance": 0.16210047667684419,
+                "cum_importance": 0.6427994522666167
+            },
+            {
+                "feature": "user_mcc_diversity_ratio",
+                "importance": 0.09657621468393267,
+                "cum_importance": 0.7393756669505493
+            },
+            {
+                "feature": "user_city_velocity_index",
+                "importance": 0.07188649186332113,
+                "cum_importance": 0.8112621588138704
+            },
+            {
+                "feature": "user_state_to_city_ratio",
+                "importance": 0.0522995890419572,
+                "cum_importance": 0.8635617478558276
+            },
+            {
+                "feature": "user_max_to_median_amt_ratio",
+                "importance": 0.04772026206942261,
+                "cum_importance": 0.9112820099252502
+            },
+            {
+                "feature": "user_amt_coefficient_of_variation",
+                "importance": 0.04750316869913576,
+                "cum_importance": 0.958785178624386
+            },
+            {
+                "feature": "user_online_txn_ratio",
+                "importance": 0.041214821375614094,
+                "cum_importance": 1.0
+            }
+        ],
+        "added_features": [
+            "user_state_to_city_ratio",
+            "user_amt_coefficient_of_variation",
+            "user_online_txn_ratio",
+            "user_max_to_median_amt_ratio",
+            "user_city_velocity_index"
+        ],
+        "zero_features": []
+    },
+    {
+        "iteration": 4,
+        "roc_auc": 0.9022531853911859,
+        "classification_report": "              precision    recall  f1-score   support\n\n           0       0.88      0.72      0.79       131\n           1       0.87      0.95      0.91       269\n\n    accuracy                           0.88       400\n   macro avg       0.88      0.83      0.85       400\nweighted avg       0.88      0.88      0.87       400\n",
+        "num_features": 9,
+        "top_80_features": [
+            {
+                "feature": "user_active_year_count",
+                "importance": 0.27495121444198656,
+                "cum_importance": 0.27495121444198656
+            },
+            {
+                "feature": "user_total_errors",
+                "importance": 0.20920688214334898,
+                "cum_importance": 0.48415809658533554
+            },
+            {
+                "feature": "user_transaction_count",
+                "importance": 0.1736151673409864,
+                "cum_importance": 0.657773263926322
+            },
+            {
+                "feature": "user_mcc_diversity_ratio",
+                "importance": 0.12884238891349292,
+                "cum_importance": 0.7866156528398149
+            }
+        ],
+        "importance_top20": [
+            {
+                "feature": "user_active_year_count",
+                "importance": 0.27495121444198656,
+                "cum_importance": 0.27495121444198656
+            },
+            {
+                "feature": "user_total_errors",
+                "importance": 0.20920688214334898,
+                "cum_importance": 0.48415809658533554
+            },
+            {
+                "feature": "user_transaction_count",
+                "importance": 0.1736151673409864,
+                "cum_importance": 0.657773263926322
+            },
+            {
+                "feature": "user_mcc_diversity_ratio",
+                "importance": 0.12884238891349292,
+                "cum_importance": 0.7866156528398149
+            },
+            {
+                "feature": "user_swipe_dominance_ratio",
+                "importance": 0.08341340139940595,
+                "cum_importance": 0.8700290542392208
+            },
+            {
+                "feature": "user_max_amt_standardized_diff",
+                "importance": 0.07747932272573003,
+                "cum_importance": 0.9475083769649508
+            },
+            {
+                "feature": "user_tester_txn_ratio",
+                "importance": 0.05249162303504927,
+                "cum_importance": 1.0
+            },
+            {
+                "feature": "user_night_txn_ratio",
+                "importance": 0.0,
+                "cum_importance": 1.0
+            },
+            {
+                "feature": "user_error_value_intensity",
+                "importance": 0.0,
+                "cum_importance": 1.0
+            }
+        ],
+        "added_features": [
+            "user_night_txn_ratio",
+            "user_tester_txn_ratio",
+            "user_swipe_dominance_ratio",
+            "user_error_value_intensity",
+            "user_max_amt_standardized_diff"
+        ],
+        "zero_features": [
+            "user_night_txn_ratio",
+            "user_error_value_intensity"
+        ]
+    }
+]
